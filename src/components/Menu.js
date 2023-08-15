@@ -14,10 +14,7 @@ const Menu = () => {
         </Link>
         <ul className="items-stretch hidden space-x-3 md:flex">
           <li className="flex">
-            <Link
-              href="/"
-              className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
-            >
+            <Link href="/" className="flex items-center px-4 -mb-1 ">
               Home
             </Link>
           </li>

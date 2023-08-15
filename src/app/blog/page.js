@@ -25,18 +25,20 @@ const Blog = () => {
 
               <div className="flex flex-col flex-1 p-6">
                 <Link
-                  href={`/blog/post/${post.id}`}
-                  className="text-2xl font-bold"
+                  href={`/blog/${post.id}`}
+                  className="text-2xl font-bold my-5"
                 >
                   {post.title}
                 </Link>
                 <p>
-                  {post.content.length > 50
-                    ? post.content.slice(0, 50) + "..."
-                    : post.content}
+                  {post.cardText.length > 50
+                    ? post.cardText.slice(0, 50) + "..."
+                    : post.cardText}
                 </p>
                 <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
-                  <span>Date : {post.date}</span>
+                  <span className="text-[#FF6584] font-bold">
+                    Date : {post.date}
+                  </span>
                 </div>
               </div>
             </div>
