@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of AI",
+    "content": "Artificial Intelligence (AI) continues to shape our world...",
+    "date": "2023-08-15",
+    "img": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Blockchain Beyond Cryptocurrencies",
+    "content": "Blockchain technology has evolved beyond cryptocurrencies...",
+    "date": "2023-08-10",
+    "img": "https://images.unsplash.com/photo-1636953099671-481a72803051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Cybersecurity in the Digital Age",
+    "content": "As technology advances, the importance of cybersecurity...",
+    "date": "2023-08-05",
+    "img": "https://plus.unsplash.com/premium_photo-1661644858773-b02cfddc793a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
+  }
+]
