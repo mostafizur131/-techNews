@@ -1,6 +1,7 @@
 "use client";
 import Article from "@/components/Article";
 import blogData from "../../../data/blogData.json";
+import styles from "./page.module.css";
 const Post = ({ params }) => {
   const postId = params.post;
   const post = blogData.find((post) => post.id === Number(postId));
@@ -12,7 +13,9 @@ const Post = ({ params }) => {
   return (
     <article className=" px-6 py-6 mx-auto space-y-5  text-gray-900 text-center">
       <div className="w-full mx-auto space-y-2 text-center">
-        <h1 className="text-4xl font-bold  md:text-5xl">{post.title}</h1>
+        <h1 className={`text-4xl font-bold  md:text-5xl ${styles.marginT}`}>
+          {post.title}
+        </h1>
         <p className="text-sm text-[#FF6584] font-bold">Date : {post.date}</p>
       </div>
       <div className="pt-5 border-t border-gray-700 flex justify-center items-center mb-10">

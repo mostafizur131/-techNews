@@ -1,10 +1,10 @@
 import Link from "next/link";
-
+import styles from "./page.module.css";
 import blogData from "../../data/blogData.json";
 
 const Blog = () => {
   return (
-    <section className="py-6 sm:py-12 bg-gray-100 text-gray-900">
+    <section className="py-6 sm:py-12  text-gray-900">
       <div className="container p-6 mx-auto space-y-8">
         <div className="space-y-2 text-center">
           <h2 className="text-4xl font-bold">
@@ -15,11 +15,11 @@ const Blog = () => {
           {blogData.map((post) => (
             <div
               key={post.id}
-              className="flex flex-col bg-gray-900 text-gray-100"
+              className={`flex flex-col bg-gray-900 text-gray-100 ${styles.cardB}`}
             >
               <img
                 alt={post.title}
-                className="object-cover w-full h-52 bg-gray-500"
+                className={`object-cover w-full h-52 bg-gray-500 ${styles.cardB}`}
                 src={post.img}
               />
 
